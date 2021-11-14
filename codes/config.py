@@ -10,10 +10,10 @@ class Config:
     setproctitle.setproctitle("%s" % name)
 
     # path
-    train_data_path = 'codes\\data\\train_example.txt'
-    val_data_path = 'codes\\data\\val_example.txt'
-    checkpoint_path = 'checkpoints'
-    log_path = 'log'
+    train_data_path = '/home/Deepcrack/codes/data/train_example.txt'
+    val_data_path = '/home/Deepcrack/codes/data/val_example.txt'
+    checkpoint_path = '/home/Deepcrack/codes/checkpoints'
+    log_path = '/home/Deepcrack/codes/log'
     saver_path = os.path.join(checkpoint_path, name)
     max_save = 20
 
